@@ -24,7 +24,7 @@ public class ConverterFactory {
 		}
 	}
 	
-	public static <T> OutputStream executeConverterList(List<T> instances, TYPE type) throws IOException{
+	public static <T> OutputStream executeConverter(List<T> instances, TYPE type) throws IOException{
 		switch (type) {
 			case CSV:
 				return new CSVImpl().convert(instances);

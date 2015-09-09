@@ -72,7 +72,7 @@ public class CSVTest {
 		return new Person(1, "Paul", "M", 23);
 	}
 	
-	private static List<Person> createPersons() {
+	private List<Person> createPersons() {
 		List<Person> persons = new ArrayList<Person>();
 		persons.add(new Person(1, "Paul", "M", 18));
 		persons.add(new Person(2, "John", "M", 39));
